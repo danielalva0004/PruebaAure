@@ -1,0 +1,33 @@
+# .NET build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+*.nupkg
+*.snupkg
+
+# IDE and user settings
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+*.DotSettings.user
+
+# Local credentials and deployment settings
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+**/Properties/PublishProfiles/
+*.pfx
+*.p12
+
+# Operating system files and logs
+.DS_Store
+Thumbs.db
+*.log
